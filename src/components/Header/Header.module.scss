@@ -1,0 +1,14 @@
+.header{
+  @apply flex items-center justify-between mx-7;
+  .menu-items{
+    @apply flex gap-4;
+  }
+  .menu-logo{
+    &--imdb{
+      @apply bg-amber-500 rounded-lg py-2 px-5 inline-block font-bold;
+    }
+    &--clone{
+      @apply hidden sm:inline sm:ml-2;
+    }
+  }
+}
